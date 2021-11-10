@@ -1,0 +1,49 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hyde'
+DefaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.fr]
+    title = "Mon démonstrateur d’internationalisation"
+    contentDir = "content/fr"
+    languageName = 'Français'
+    languageFlag = "🇫🇷"
+    weight = 3
+  [languages.ar]
+    title = "مُستعرِضي للتدويل"
+    contentDir = "content/ar"
+    languageName = 'العربية'
+    languageFlag = "(ar)"
+    weight = 3
+  [languages.oc]
+    title = "Lo meu demostrator d’internacionalizacion"
+    contentDir = "content/oc"
+    languageName = 'occitan'
+    languageFlag = "(oc)"
+    weight = 3
+  [languages.en]
+    title = "My internationalization demonstrator"
+    contentDir = "content/en"
+    languageName = 'Engish'
+    languageFlag = "(en)"
+    weight = 1
+  [languages.ro]
+    title = "Demonstratorul meu de internaționalizare"
+    contentDir = "content/ro"
+    languageName = 'Română'
+    languageFlag = "(ro)"
+    weight = 3
+  [languages.qq]
+    title = "QMyq qinternationalizationq qdemonstratorq"
+    contentDir = "content/qq"
+    languageName = 'qlangq'
+    languageFlag = "(qq)"
+    weight = 3
+  [languages.zz]
+    title = "ZMyz zinternationalizationz zdemonstratorz"
+    contentDir = "content/zz"
+    languageName = 'zlangz'
+    languageFlag = "(zz)"
+    weight = 3
